@@ -1,4 +1,4 @@
-# Landing Page - Promoção de Habilidades de Programação
+# Landing Page - 
 
 ## 📋 Resumo do Projeto
 
