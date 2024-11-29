@@ -47,9 +47,3 @@ O projeto segue princípios da WCAG, incluindo:
 2. **Semântica**: Estruturas HTML claras como `header`, `main` e `footer`.
 3. **Rótulos Associados**: Labels conectados aos campos do formulário.
 4. **Responsividade e foco visível**: Garantindo navegação eficiente via teclado e leitores de tela.
-
-## 🚀 Como Rodar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
