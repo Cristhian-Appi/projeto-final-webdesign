@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Seu Nome">
+  <meta name="description" content="Landing page para promover habilidades de programação.">
+  <meta name="keywords" content="programação, habilidades, web, design">
+  <meta name="robots" content="index, follow">
+  <title>Minha Landing Page</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>HEADER</h1>
+  </header>
+  
+  <main>
+    <!-- Seção de Apresentação -->
+    <div class="presentation-container">
+      <div class="headline">
+        <h1>Transformando Ideias em Realidade Digital</h1>
+        <p>Descubra como minhas habilidades podem contribuir para o sucesso do seu projeto.</p>
+        <button class="cta-btn">Entre em Contato</button>
+      </div>
+      <img src="/imagens/calango.jpg" alt="Calango">
+    </div>
+
+    <!-- Seção de Benefícios -->
+    <section class="benefits">
+      <h2>Benefícios que Ofereço</h2>
+      <div class="benefits-container">
+        <div class="benefit-item">
+          <img src="/imagens/desempenho.webp" alt="Ícone 1">
+          <h3>Desempenho Rápido</h3>
+          <p>Soluções otimizadas e de alta performance para o seu negócio.</p>
+        </div>
+        <div class="benefit-item">
+          <img src="/imagens/desing.webp" alt="Ícone 2">
+          <h3>Design Moderno</h3>
+          <p>Interfaces intuitivas e atraentes para maximizar a experiência do usuário.</p>
+        </div>
+        <div class="benefit-item">
+          <img src="/imagens/suporte.webp" alt="Ícone 3">
+          <h3>Suporte Confiável</h3>
+          <p>Parceria contínua para garantir o sucesso do seu projeto.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section class="projects">
+      <h2>Projetos de Sucesso</h2>
+      <div class="projects-container">
+        <div class="project">
+          <img src="/imagens/gestao.jpg" alt="Calango">
+          <div>
+            <h3>Sistema de Gestão</h3>
+            <p>Uma solução completa para gerenciar equipes e projetos.</p>
+            <button class="cta-btn">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="project">
+          <div>
+            <h3>E-commerce Personalizado</h3>
+            <p>Uma plataforma sob medida para o seu negócio online.</p>
+            <button class="cta-btn">Saiba Mais</button>
+          </div>
+          <img src="/imagens/ecommercepers.jpg" alt="Calango">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Logos -->
+    <section class="logos">
+      <h2>Empresas Parceiras</h2>
+      <div class="logos-container">
+        <img src="/imagens/burger.jpg" alt="Calango">
+        <img src="/imagens/chanel.png" alt="Calango">
+        <img src="/imagens/hp.png" alt="Calango">
+        <img src="/imagens/lacoste.png" alt="Calango">
+        <img src="/imagens/mercadolivre.jpg" alt="Calango">
+        <img src="/imagens/microsoft.png" alt="Calango">
+        <img src="/imagens/radtek.webp" alt="Calango">
+        <img src="/imagens/samsung.png" alt="Calango">
+        <img src="/imagens/intel.png" alt="Calango">
+        <img src="/imagens/loggi.png" alt="Calango">
+        <img src="/imagens/mcdonald.jpg" alt="Calango">
+        <img src="/imagens/steam.jpg" alt="Calango">
+      </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="contact">
+      <div class="message">
+        <h2>Titulo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit labore alias fuga, obcaecati nesciunt doloremque eius. Atque molestiae modi tenetur excepturi labore veritatis hic magni quis a quos! Voluptates, veritatis.</p>
+
+        <div class="quote">
+          <div class="headline">
+            <img src="/imagens/calango.jpg" alt="Calango">
+            <h3>Titulo da mensagem</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste commodi eius perferendis numquam minima repellat ipsa, reiciendis est tempore, vitae dolorem expedita delectus magnam aut explicabo natus magni? Tempora, incidunt!\</p>
+        </div>
+      </div>
+
+      <form id="contactForm">
+        <h3>Entre em Contato</h3>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit" class="cta-btn">Enviar</button>
+      </form>
+      <p id="mensagemErro" style="color: red; display: none;">Por favor, preencha todos os campos corretamente.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
